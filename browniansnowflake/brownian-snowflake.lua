@@ -1,7 +1,7 @@
 -- brownian motion snowflake
 -- version0.1 @jaseknighter
 --
--- particle class based on Daniel Shiffman's Coding Challenge 127: Brownian Motion Snowflake
+-- based on Daniel Shiffman's Coding Challenge 127: Brownian Motion Snowflake
 -- https://thecodingtrain.com/CodingChallenges/127-brownian-snowflake.html
 -- https://youtu.be/XUA8UREROYE
 -- https://editor.p5js.org/codingtrain/sketches/SJcAeCpgE
