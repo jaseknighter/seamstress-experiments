@@ -35,7 +35,7 @@ function init()
   for i = 1, 50 do
     x = math.random(width)
     y = math.random(height)
-    mass = math.random(15, 200)
+    mass = math.random(5, 200)
     table.insert(particles,particle.new(x, y, mass, i))
   end
 
@@ -99,7 +99,7 @@ function redraw()
           pair = {id_b,id_a}
         end
         local checked_pairs_has_pair = false
-        for k=1, #checked_pairs do
+        for k=j, #checked_pairs do
           local pair_to_check = checked_pairs[k] 
           if pair_to_check[1] == pair[1] and pair_to_check[2] == pair[2] then
             checked_pairs_has_pair = true
